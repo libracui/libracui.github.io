@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T12:25:00.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" version="21.1.0" etag="7_jiU2bvV4yZsST9OKsI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T12:31:29.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="YcIL6TTHKwzls69ikCIC" version="21.1.0" type="github">
   <diagram name="第 1 页" id="l6h8nzet26w7MI02Z6ip">
-    <mxGraphModel>
+    <mxGraphModel dx="1126" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-1" target="tLV3xme-TzW_ShrzXcEz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;文本纠错数据集&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-3" target="tLV3xme-TzW_ShrzXcEz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-3" target="tLV3xme-TzW_ShrzXcEz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;文本纠错模型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-4" target="tLV3xme-TzW_ShrzXcEz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;调参优化和结果验证&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-5" target="tLV3xme-TzW_ShrzXcEz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;后端API服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-6" target="tLV3xme-TzW_ShrzXcEz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前端WEB界面&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLV3xme-TzW_ShrzXcEz-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLV3xme-TzW_ShrzXcEz-2" target="tLV3xme-TzW_ShrzXcEz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
